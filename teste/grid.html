@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="shortcut icon" type="image/png" href="/images/logo_default.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>abelha</title>
+</head>
+
+<body>
+    <!--           area de navegação             -->
+    <header>
+        <h2 class="menu">BEESINESS</h2>
+        <nav class="navigation">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre</a>
+            <a href="#">Loja</a>
+            <a href="#">Contato</a>
+            <button class="btn" id="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <!--       Formulario de login        -->
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>email</label>
+
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="key"></ion-icon></span>
+                    <input type="password" required>
+                    <label>senha</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Lembrar-me</label>
+                    <a href="#">esqueceu a senha ?</a>
+                </div>
+                <button type="submit" class="btn">entrar</button>
+                <div class="login-resgister">
+                    <p>Ainda não tem cadastro ?<a href="#" class="register-link">Cadastrar-se</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--  links de scripts usados  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script scr="grid.js"></script>
+</body>
+
+</html>
