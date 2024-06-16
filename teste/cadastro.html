@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="cadastro.css">
     <link rel="shortcut icon" type="image/png" href="/images/logo_default.png" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <title>login</title>
+    <title>cadastro</title>
 </head>
 
 <body>
@@ -29,10 +29,10 @@
         <!--       Formulario de login        -->
         <div class="wrapper">
             <div class="form-box login">
-                <h2>Login</h2>
+                <h2>Cadastro</h2>
                 <form action="#">
                     <div class="login-resgister">
-                        <p>Ainda não tem cadastro ? <a href="cadastro.html" class="register-link">Cadastrar-se</a></p>
+                        <p>ja tem uma conta ? <a href="index.html" class="register-link">entre com sua conta</a></p>
                     </div>
                     <div class="input-box">
                         <span class="icon"><ion-icon name="mail"></ion-icon></span>
@@ -45,9 +45,13 @@
                         <input type="password" required>
                         <label>senha</label>
                     </div>
-                    <div class="remember-forgot">
-                        <label><input type="checkbox">Lembrar-me</label>
-                        <a class="register-link" href="#">esqueceu a senha ?</a>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="shield-checkmark"></ion-icon></ion-icon></span>
+                        <input type="password" required>
+                        <label> confirme sua senha</label>
+                    </div>
+                    <div class="termos">
+                        <label><input type="checkbox" required>eu aceito os termos de uso</label>
                     </div>
                     <button type="submit" class="btn">entrar</button>
                 </form>
