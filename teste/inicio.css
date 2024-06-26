@@ -92,75 +92,73 @@ button#btnLogin-popup:hover {
     color: #46342a;
 }
 
-/*  loja  */
+/*  inicio  */
 
 .site {
     width: 100%;
-    height: 80%;
+    height: 100%;
+}
+
+main {
     margin-top: 90px;
-}
-.container {
-    justify-content: space-around;
+    margin-left: 200px;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
 }
 
-.card {
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    width: 700px;
-    margin: 20px;
-    padding: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.2s;
-    background-color: #735340;
+main section {
+    margin-left: 10px;
 }
 
-.card:hover {
-    transform: scale(1.05);
-}
+footer {
 
-.card img {
-    width: 100%;
-    height: auto;
-    max-height: 500px;
-    object-fit: cover;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 15px;
-}
-
-.card h2 {
-    font-size: 22px;
-    margin: 10px 0;
-    color: #46342a;
+    background: #333;
+    color: #fff;
     text-align: center;
-}
-
-.card p {
-    font-size: 16px;
-    color: #fff;
-    margin: 10px 0;
     padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-.card .price {
-    font-size: 20px;
+#home {
+    margin-top: 100px;
+    margin-left: 270px;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+#home p {
+    margin-left: 70px;
+}
+
+.fotos {
+    width: 560px;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+.cont {
+    padding: 20px;
+    background-color: #735340;
+    width: 619px;
+    height: 700px;
+    border: #735340 solid 10px;
+    writing-mode: horizontal-tb;  
+    font-size: 30px;
+    margin-bottom: 100px;
     color: #fff;
-    margin: 10px 0;
-    margin-bottom: 10px;
 }
 
-.card button {
-    width: 270px;
-    background-color: #46342a;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
+.cont h2 {
+    margin-left: 180px;
+    margin-bottom: 20px;
 }
 
-.card button:hover {
-    background-color: #d1ac47;
+.cont p {
+    margin-left: 30px;
 }
